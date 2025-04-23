@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Хөтөлбөр</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
@@ -13,6 +13,18 @@
              font-family: "Roboto", sans-serif;
              margin: 0;
         }
+
+        .container::-webkit-scrollbar {
+          width: 3px;
+          height: 8px;
+          background-color: transparent; /* or add it to the track */
+        }
+
+        /* Add a thumb */
+        .container::-webkit-scrollbar-thumb {
+          background: #000;
+        }
+
         h2 {
             margin: 30px 0px;
             margin-left: 20px;
